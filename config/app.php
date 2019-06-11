@@ -23,7 +23,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'DreamFactory'),
+    'name' => env('APP_NAME', 'ElektroPay'),
 
     /*
     |--------------------------------------------------------------------------
@@ -62,7 +62,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://api.elektropay.com'),
+    'url' => env('APP_URL', 'https://api.elektropay.com'),
 
     /*
     |--------------------------------------------------------------------------
