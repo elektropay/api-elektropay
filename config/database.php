@@ -43,7 +43,7 @@ return [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', '108.167.191.197'),
             'port'      => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'elektropay-app'),
+            'database'  => env('DB_DATABASE', 'everpay-app'),
             'username'  => env('DB_USERNAME', 'everpay_master'),
             'password'  => env('DB_PASSWORD', 'Jasmine8075'),
             'charset'   => env('DB_CHARSET', 'utf8mb4'),
@@ -106,10 +106,10 @@ return [
         'client' => env('REDIS_CLIENT', 'predis'),
 
         'default' => [
-            'host'     => env('REDIS_HOST', '127.0.0.1'),
+            'host'     => env('REDIS_HOST', 'NInOJjcwbMzSI7wLLqizWsOJR55BgJdC'),
             'port'     => env('REDIS_PORT', 6379),
-            'database' => env('REDIS_DATABASE', 0),
-            'password' => env('REDIS_PASSWORD', null), // Needed by Redis Cloud and other similar services
+            'database' => env('REDIS_DATABASE', elektro-redis),
+            'password' => env('REDIS_PASSWORD', NInOJjcwbMzSI7wLLqizWsOJR55BgJdC), // Needed by Redis Cloud and other similar services
         ],
 
         'broadcast' => [
