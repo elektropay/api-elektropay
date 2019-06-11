@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', '108.167.191.197'),
+            'host'      => env('DB_HOST', 'am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'),
             'port'      => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'everpay-app'),
-            'username'  => env('DB_USERNAME', 'everpay_master'),
-            'password'  => env('DB_PASSWORD', 'Jasmine8075'),
+            'database'  => env('DB_DATABASE', 's0efc6s1u1xsw9b9'),
+            'username'  => env('DB_USERNAME', '	hxzv3zultimb1cyf'),
+            'password'  => env('DB_PASSWORD', 'lvjvsetemqheaspi'),
             'charset'   => env('DB_CHARSET', 'utf8mb4'),
             'collation' => env('DB_COLLATION', 'utf8mb4_unicode_ci'),
             'prefix'    => env('DB_PREFIX', ''),
