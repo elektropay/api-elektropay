@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', env('DB_DRIVER', 'sqlite')),
+    'default' => env('DB_CONNECTION', env('DB_DRIVER', 'mysql')),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', '127.0.0.1'),
+            'host'      => env('DB_HOST', '108.167.191.197'),
             'port'      => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'dreamfactory'),
-            'username'  => env('DB_USERNAME', ''),
-            'password'  => env('DB_PASSWORD', ''),
+            'database'  => env('DB_DATABASE', 'elektropay-app'),
+            'username'  => env('DB_USERNAME', 'everpay_master'),
+            'password'  => env('DB_PASSWORD', 'Jasmine8075'),
             'charset'   => env('DB_CHARSET', 'utf8mb4'),
             'collation' => env('DB_COLLATION', 'utf8mb4_unicode_ci'),
             'prefix'    => env('DB_PREFIX', ''),
