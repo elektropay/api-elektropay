@@ -39,7 +39,7 @@ declare -A settings=(
 ["APP_LOG_LEVEL"]="warning"
 ["APP_NAME"]="ElektroPay"
 ["APP_TIMEZONE"]="UTC"
-["APP_URL"]="https://api-elektropay.herokuapp.com/"
+["APP_URL"]="https://api-elektropay.herokuapp.com"
 ["DF_LANDING_PAGE"]="/dreamfactory/dist/index.html"
 # Database
 ["DB_CONNECTION"]="mysql"
