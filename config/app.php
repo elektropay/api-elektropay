@@ -62,7 +62,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://api.elektropay.com'),
+    'url' => env('APP_URL', 'https://api-elektropay.herokuapp.com'),
 
     /*
     |--------------------------------------------------------------------------
